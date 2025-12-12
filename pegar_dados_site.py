@@ -9,8 +9,8 @@ import zipfile
 # Executável do Tesseract
 pytesseract.pytesseract.tesseract_cmd = r'R:\RPA\Publico\Livre\Tesseract-OCR\tesseract.exe'
 
-DIRETORIO_RAIZ = r'C:\Users\userbi\Desktop\Projetos\Processo_admissional_LUCAS'
-DIRETORIO_IMAGENS = os.path.join(DIRETORIO_RAIZ, 'img')
+DIRETORIO_RAIZ = r'C:\Users\userbi\Desktop\Projetos\Processo_admissional_V2'
+DIRETORIO_IMAGENS = os.path.join(DIRETORIO_RAIZ, 'IMGs')
 
 from verificar_ou_clicar_imagem import apenasverificar,clickimagem,emoji_status
 
@@ -24,9 +24,9 @@ time.sleep(2)
 apenasverificar('site_lugarh_tela_inteira.png')
 
 #Colocando o "itens por página" em 100
-for tab in range(4):
+for tab in range(4):                
     time.sleep(0.3)
-    pag.press("tab")
+    pag.press("tab")                            
 for baixo in range(2):
     time.sleep(0.3)
     pag.press("down")

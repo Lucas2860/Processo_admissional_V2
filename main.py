@@ -29,6 +29,7 @@ def main():
         print(f"{emoji_status('erro')} Falha na execução do pegar_dados_site.py. Abortando...")
         return
     
+    
     # 2. Se pegar_dados_site.py foi bem-sucedido, executar processo_no_SAR.py
     print(f"{emoji_status('info')} Iniciando execução do processo_no_SAR.py")
     sucesso_processo_sar = executar_script(processo_sar_script)

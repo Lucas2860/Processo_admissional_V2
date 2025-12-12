@@ -4,7 +4,7 @@ import time
 import pyautogui
 import numpy as np
 
-DIRETORIO_IMAGENS = r'C:\Users\userbi\Desktop\Projetos\Processo_admissional_LUCAS\IMGs'
+DIRETORIO_IMAGENS = r'C:\Users\userbi\Desktop\Projetos\Processo_admissional_V2\IMGs'
 
 # Função para adicionar emojis aos prints
 def emoji_status(status):
