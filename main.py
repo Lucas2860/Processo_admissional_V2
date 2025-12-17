@@ -30,7 +30,7 @@ def main():
         return
     
     
-    # 2. Se pegar_dados_site.py foi bem-sucedido, executar processo_no_SAR.py
+    # 3. Se pegar_dados_site.py foi bem-sucedido, executar processo_no_SAR.py
     print(f"{emoji_status('info')} Iniciando execução do processo_no_SAR.py")
     sucesso_processo_sar = executar_script(processo_sar_script)
     

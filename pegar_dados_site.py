@@ -34,11 +34,9 @@ for baixo in range(2):
 time.sleep(2)
 
 #Colocando um filtro para "sem etapa" 
-for tab in range(11):
-    time.sleep(0.5)
-    pag.press("tab")
+pag.press("tab", presses=11, interval=0.5)
 pag.press('enter')
-time.sleep(2)
+apenasverificar('sem_etapa.png')
 clickimagem('sem_etapa.png')
 
 time.sleep(2)

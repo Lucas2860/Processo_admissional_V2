@@ -233,6 +233,12 @@ def checarinfor(dados):
             return True
     return False
 
+#ALTERANDO AS DATAS DE EXPEDIÇÃO DO RG
+def alterar_data():
+    arquivo = ler_arquivo_json("Dados Pessoais.json")
+    data_rg = arquivo["rg_data_expedicao"]
+    print(data_rg)
+
 def checkexistente(cpf):
     # Verifica se o CPF está vazio
     if not cpf or cpf.strip() == "":
